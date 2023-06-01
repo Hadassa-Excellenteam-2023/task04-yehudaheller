@@ -14,7 +14,7 @@ if (MSVC)
     add_compile_options (/W4 /permissive- /Zc:externConstexpr /Zc:inline)
 endif ()
 
-add_executable (Task06)
+add_executable (Task04)
 
 add_subdirectory (include)
 add_subdirectory (src)
